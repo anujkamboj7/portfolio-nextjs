@@ -8,8 +8,6 @@ import {
 } from "@chakra-ui/react";
 
 const ProjectItem = ({ projects }) => {
-  console.log(projects);
-
   return (
     <Box>
       {projects.map((project) => (
@@ -33,7 +31,7 @@ const ProjectItem = ({ projects }) => {
                 textTransform='lowercase'
                 color='gray.200'
                 borderRadius='3px'
-                key={project.id}
+                key={tag.id}
                 whiteSpace='nowrap'
               >
                 #{tag.name}
