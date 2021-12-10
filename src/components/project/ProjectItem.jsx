@@ -8,16 +8,13 @@ import {
 } from "@chakra-ui/react";
 
 const ProjectItem = ({ projects }) => {
+  const color = useColorModeValue("gray.800", "blue.400");
+
   return (
     <Box>
       {projects.map((project) => (
         <Box mt={{ base: "30px", sm: "40px" }} key={project.id}>
-          <Heading
-            as='h2'
-            size='md'
-            fontWeight='bold'
-            color={useColorModeValue("gray.800", "blue.400")}
-          >
+          <Heading as='h2' size='md' fontWeight='bold' color={color}>
             {project.properties.Title.title[0].plain_text}
           </Heading>
           <Box mt='8px' mb='10px'>
