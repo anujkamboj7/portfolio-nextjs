@@ -49,16 +49,15 @@ export default function Home({ projects }) {
             lineHeight='tall'
             color='gray.500'
           >
-            I'm a
+            I'm a&nbsp;
             <Text as='span' color='gray.300'>
-              {" "}
-              Developer,{" "}
+              Developer,&nbsp;
             </Text>
-            who loves{" "}
+            who loves&nbsp;
             <Text as='span' color='gray.300'>
-              to build Web Apps
-            </Text>{" "}
-            and{" "}
+              to build Web Apps&nbsp;
+            </Text>
+            and&nbsp;
             <Text as='span' color='gray.300'>
               deliver quality products.
             </Text>
